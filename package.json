@@ -1,0 +1,31 @@
+{
+  "name": "newsletter_signup_mailchimp",
+  "version": "1.0.0",
+  "description": "This is a News Letter signUp page it will help to get emails of user",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.17.4",
+    "npm": "6.14.14"
+  },
+  "keywords": [
+    "News",
+    "Letter",
+    "newsletter",
+    "signup",
+    "node",
+    "javascript",
+    "html",
+    "express",
+    "api"
+  ],
+  "author": "Yash nayak",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.59",
+    "express": "^4.17.1"
+  }
+}
