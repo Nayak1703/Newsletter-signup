@@ -14,8 +14,8 @@ app.use(express.urlencoded({
 
 // setting mailchimp configration before using mailchimp api
 mailchimp.setConfig({
-  apiKey: "f18a160a2c9c3a5cbbd29ec6c6283808-us5",
-  server: "us5",
+  apiKey: "api-key",
+  server: "api server",
 });
 
 // deciding our html-file in get request in root route
